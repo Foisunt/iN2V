@@ -1,0 +1,37 @@
+alldone: true
+batch_size:
+- 128
+dataset:
+- Amazon-ratings
+embedding_dim:
+- 64
+fp:
+- - 10
+  - 20
+  - 40
+  - 60
+lr:
+- 0.1
+- 0.01
+- 0.001
+p:
+- 0.2
+- 1
+- 5
+prob_replace:
+- 0.2
+- 0.4
+- 0.6
+- 0.8
+q:
+- 0.2
+- 1
+- 5
+split:
+- 145
+statrep:
+- 3
+w_ms:
+- 0
+w_ndiv:
+- 0

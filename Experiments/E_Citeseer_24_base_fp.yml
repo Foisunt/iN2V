@@ -1,0 +1,29 @@
+alldone: true
+batch_size:
+- 128
+dataset:
+- Citeseer
+embedding_dim:
+- 256
+fp:
+- - 40
+lr:
+- 0.1
+optim_cluster:
+- false
+p:
+- 5.0
+prob_replace:
+- 0
+q:
+- 1.0
+save_embeds:
+- true
+split:
+- 24
+statrep:
+- 10
+w_ms:
+- 0
+w_ndiv:
+- 0

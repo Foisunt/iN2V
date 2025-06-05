@@ -1,0 +1,42 @@
+alldone: true
+datamode:
+- emb_fpbase
+- emb_fploss
+- emb_fpprob
+- cat_fpbase
+- cat_fploss
+- cat_fpprob
+dataset:
+- Computers
+drop_model:
+- 0.2
+- 0.5
+- 0.8
+lr:
+- 0.01
+- 0.001
+model:
+- MLP_5_512
+- MLP_5_64
+- MLP_4_512
+- MLP_4_64
+- MLP_3_512
+- MLP_3_64
+- MLP_2_512
+- MLP_2_64
+- MLP_1_512
+- MLP_1_64
+model_type:
+- lin
+- jkb
+- jk
+name:
+- F_Com_43_MLP_fp
+split:
+- '43'
+statrep:
+- 10
+wd:
+- 0
+- 0.0001
+- 0.01

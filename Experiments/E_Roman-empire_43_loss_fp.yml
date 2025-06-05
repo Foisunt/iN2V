@@ -1,0 +1,27 @@
+alldone: true
+batch_size:
+- 128
+dataset:
+- Roman-empire
+embedding_dim:
+- 64
+fp:
+- - 10
+lr:
+- 0.1
+p:
+- 0.2
+prob_replace:
+- 0
+q:
+- 5.0
+save_embeds:
+- true
+split:
+- 43
+statrep:
+- 10
+w_ms:
+- 0.0
+w_ndiv:
+- 0.1

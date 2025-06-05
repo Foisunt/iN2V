@@ -1,0 +1,21 @@
+alldone: true
+alpha:
+- - 0
+  - 0.4
+  - 1
+dataset:
+- Cora
+delay:
+- - 0
+  - 3
+fp:
+- - 10
+  - 20
+model:
+- feats
+name:
+- test_extend_orig
+split:
+- 145
+statrep:
+- 3

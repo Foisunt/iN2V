@@ -1,0 +1,30 @@
+context_size:
+- 10
+num_negative_samples:
+- 1
+ds_make_undir:
+- True
+ds_add_self:
+- False
+max_epochs:
+- 10000
+patience:
+- 50
+batch_size:
+- 128
+max_iter:
+- 50
+model:
+- N2V
+statrep:
+- 10
+prob_replace:
+- 0
+walk_len:
+- 20
+walks_per_node:
+- 10
+save_embeds:
+- False
+datamode:
+- gra

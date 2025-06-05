@@ -1,0 +1,12 @@
+ds_make_undir:
+- True
+ds_add_self:
+- False
+max_epochs:
+- 20000
+patience:
+- 50
+statrep:
+- 10
+save_embeds:
+- False

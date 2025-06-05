@@ -1,0 +1,29 @@
+alldone: true
+alpha:
+- - 0.0
+batch_size:
+- 128
+dataset:
+- Actor
+delay:
+- - 3.0
+embedding_dim:
+- 64
+lr:
+- 0.1
+p:
+- 0.2
+prob_replace:
+- 0
+q:
+- 1.0
+save_embeds:
+- true
+split:
+- 145
+statrep:
+- 10
+w_ms:
+- 0.1
+w_ndiv:
+- 0.1

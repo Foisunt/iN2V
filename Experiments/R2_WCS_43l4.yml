@@ -1,0 +1,38 @@
+alldone: true
+alpha:
+- - 0.4
+batch_size:
+- 128
+dataset:
+- WikiCS
+delay:
+- - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+embedding_dim:
+- 256
+lr:
+- 0.01
+p:
+- 1
+prob_replace:
+- 0
+q:
+- 1
+split:
+- 43
+statrep:
+- 10
+w_ms:
+- 100
+w_ndiv:
+- 0
+- 0.001
+- 0.01
+- 0.1
+- 1

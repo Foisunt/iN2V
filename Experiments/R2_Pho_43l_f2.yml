@@ -1,0 +1,37 @@
+alldone: true
+alpha:
+- - 0.4
+batch_size:
+- 128
+dataset:
+- Photo
+delay:
+- - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+embedding_dim:
+- 256
+lr:
+- 0.01
+name:
+- R2_Pho_43l_f2
+p:
+- 1
+prob_replace:
+- 0
+q:
+- 1
+split:
+- 43
+statrep:
+- 10
+w_ms:
+- 0.01
+w_ndiv:
+- 10
+- 100

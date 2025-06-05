@@ -1,0 +1,29 @@
+alldone: true
+batch_size:
+- 128
+dataset:
+- Actor
+embedding_dim:
+- 64
+fp:
+- - 10
+lr:
+- 0.1
+optim_cluster:
+- false
+p:
+- 1.0
+prob_replace:
+- 0
+q:
+- 5.0
+save_embeds:
+- true
+split:
+- 62
+statrep:
+- 10
+w_ms:
+- 0.0
+w_ndiv:
+- 0.001

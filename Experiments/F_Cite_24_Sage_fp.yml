@@ -1,0 +1,42 @@
+alldone: true
+datamode:
+- emb_fpbase
+- emb_fploss
+- emb_fpprob
+- cat_fpbase
+- cat_fploss
+- cat_fpprob
+dataset:
+- Citeseer
+drop_model:
+- 0.2
+- 0.5
+- 0.8
+lr:
+- 0.01
+- 0.001
+model:
+- Sage_5_512
+- Sage_5_64
+- Sage_4_512
+- Sage_4_64
+- Sage_3_512
+- Sage_3_64
+- Sage_2_512
+- Sage_2_64
+- Sage_1_512
+- Sage_1_64
+model_type:
+- lin
+- jkb
+- jk
+name:
+- F_Cite_24_Sage_fp
+split:
+- '24'
+statrep:
+- 10
+wd:
+- 0
+- 0.0001
+- 0.01

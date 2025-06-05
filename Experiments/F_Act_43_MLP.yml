@@ -1,0 +1,45 @@
+alldone: true
+datamode:
+- gra
+- emb_tr
+- emb_ba
+- emb_po
+- emb_lo
+- emb_re
+- cat_tr
+- cat_ba
+- cat_po
+- cat_lo
+- cat_re
+dataset:
+- Actor
+drop_model:
+- 0.2
+- 0.5
+- 0.8
+lr:
+- 0.01
+- 0.001
+model:
+- MLP_5_512
+- MLP_5_64
+- MLP_4_512
+- MLP_4_64
+- MLP_3_512
+- MLP_3_64
+- MLP_2_512
+- MLP_2_64
+- MLP_1_512
+- MLP_1_64
+model_type:
+- lin
+- jkb
+- jk
+split:
+- 43
+statrep:
+- 10
+wd:
+- 0
+- 0.0001
+- 0.01
