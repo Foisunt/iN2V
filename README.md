@@ -1,13 +1,12 @@
 # iN2V
 iN2V: Bringing Transductive Node Embeddings to Inductive Graphs
 
-published at ICML 2025
+published at ICML 2025, where you can see the poster and a short presentation: https://icml.cc/virtual/2025/poster/46107
 
 Find the paper in
 PMLR: https://proceedings.mlr.press/v267/lell25a.html
 OpenReview: https://openreview.net/forum?id=BYakLzKJDz
 or arXiv: https://arxiv.org/abs/2506.05039
-
 
 
 We ran our experiments with 
