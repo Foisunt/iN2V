@@ -1,5 +1,6 @@
 # iN2V
 iN2V: Bringing Transductive Node Embeddings to Inductive Graphs
+
 published at ICML 2025
 
 Find the paper in
